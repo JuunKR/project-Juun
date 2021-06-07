@@ -2,7 +2,7 @@ import React from 'react'
 import './SignUp.css'
 
 const SignUp = () => {
-    return (<>
+    return(<>
     <form action="/action_page.php" style={{border:"1px solid #ccc"}}>
   <div className="container">
     <h1>Sign Up</h1>
