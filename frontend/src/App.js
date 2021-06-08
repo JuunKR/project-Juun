@@ -5,6 +5,11 @@ import { Login, SignUp, UserDetail, UserEdit, UserList } from 'user/index'
 import { Home } from 'common/index'
 
 
+
+
+
+
+
 const App = () => {
   return (<div>
     <Route exact path='/' component={Home} />
@@ -13,7 +18,7 @@ const App = () => {
     <Route exact path='/login' component={Login}/>
     <Route exact path='/signup' component={SignUp}/>
     <Route exact path='/user-detail' component={UserDetail}/>
-    <Route exact path='/user-dedit' component={UserEdit}/>
-  </div>)
+    <Route exact path='/user-dedit' component={UserEdit}/>      
+  </div>)   
 }
 export default App
