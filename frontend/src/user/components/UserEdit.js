@@ -1,6 +1,6 @@
 import React from 'react'
 
-const UserEdit = () =>{
-    return(<></>)
+const UserEdit = () => {
+
 }
 export default UserEdit
